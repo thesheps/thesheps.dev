@@ -11,7 +11,7 @@ env:
   MINIFY: 'true'
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,7 @@ jobs:
         with:
           name: thesheps-dev
           template: website.yml
+          no-fail-on-empty-changeset: "1"
 
       - name: Deploy site
         uses: plopcas/hugo-s3-action@v1.3.0
