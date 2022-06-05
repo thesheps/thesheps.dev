@@ -65,3 +65,8 @@ unsafe = true
   [services.twitter]
     disableInlineCSS = true
 
+[deployment]
+[[deployment.targets]]
+name = "S3"
+# URL = "s3://<Bucket Name>?region=<AWS region>"
+# cloudFrontDistributionID = <ID>
