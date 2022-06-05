@@ -1,0 +1,67 @@
+baseURL = "https://thesheps.dev"
+theme = "risotto"
+title = "thesheps.dev"
+author = "Chris Shepherd"
+copyright = "© 2022 Chris Shepherd"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+
+[params.theme]
+palette = "gruvbox-dark"
+mode = "dark-mode"
+
+# Sidebar: about/bio
+[params.about]
+title = "About"
+summary = "Blog, code and stuff."
+logo = "assets/images/bio.jpg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 5 <https://fontawesome.com/> ('fas fa-' or 'fab-fa' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/thesheps"
+
+[[params.socialLinks]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/the_sheps"
+
+[[params.socialLinks]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:me@thesheps.dev"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+[services]
+  [services.twitter]
+    disableInlineCSS = true
+
