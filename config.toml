@@ -68,5 +68,5 @@ unsafe = true
 [deployment]
 [[deployment.targets]]
 name = "S3"
-# URL = "s3://<Bucket Name>?region=<AWS region>"
+URL = "s3://thesheps-dev-s3bucket-196q55zm93jj6?region=eu-west-1"
 # cloudFrontDistributionID = <ID>
