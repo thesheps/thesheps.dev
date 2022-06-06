@@ -25,9 +25,9 @@ mode = "dark-mode"
 title = "thesheps.dev"
 summary = "Blog, code and stuff."
 description = """
-- Barbershopper [@cottontownchorus](https://cottontownchorus.co.uk)
-- Games Maker [@sheepandram](https://sheepandram.com)
-- Dev [@thoughtworks](https://www.thoughtworks.com)
+- [Barbershopper](https://cottontownchorus.co.uk)
+- [Games maker](https://sheepandram.com)
+- [thoughtworks.com](https://www.thoughtworks.com)
 """
 
 logo = "assets/images/bio.jpg"
