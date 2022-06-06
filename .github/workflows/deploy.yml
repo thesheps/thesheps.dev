@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: Deploy Infra
-        uses: aws-actions/aws-cloudformation-github-deploy@v1
+        uses: aws-actions/aws-cloudformation-github-deploy@v1.0.3
         with:
           name: thesheps-dev
           template: website.yml
