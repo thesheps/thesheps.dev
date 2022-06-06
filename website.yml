@@ -10,10 +10,10 @@ Resources:
         ErrorDocument: 
           Key: error.html
         RoutingRules:
-          - Redirect:
+        - Redirect:
             ReplaceKeyWith: index.html
-          - Condition:
-            KeyPrefixEquals: '/'
+          Condition:
+            KeyPrefixEquals: "/"
     DeletionPolicy: Retain
   BucketPolicy:
     Type: 'AWS::S3::BucketPolicy'
