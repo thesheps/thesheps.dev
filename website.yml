@@ -1,66 +1,56 @@
-AWSTemplateFormatVersion: 2010-09-09
 Resources:
+  S3BucketLogs:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
+    Properties:
+      AccessControl: LogDeliveryWrite
+      BucketName: !Sub '${AWS::StackName}-logs'
+
   S3Bucket:
-    Type: 'AWS::S3::Bucket'
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
     Properties:
       AccessControl: PublicRead
+      BucketName: !Sub '${AWS::StackName}-site'
+      LoggingConfiguration:
+        DestinationBucketName: !Ref S3BucketLogs
+        LogFilePrefix: 'cdn/'
       WebsiteConfiguration:
+        ErrorDocument: '404.html'
         IndexDocument: 'index.html'
-        ErrorDocument: 'error.html'
-        RoutingRules:
-          - RedirectRule:
-              ReplaceKeyWith: index.html
-            RoutingRuleCondition:
-              KeyPrefixEquals: '/'
-    DeletionPolicy: Retain
-  BucketPolicy:
-    Type: 'AWS::S3::BucketPolicy'
-    Properties:
-      PolicyDocument:
-        Id: WebsitePolicy
-        Version: 2012-10-17
-        Statement:
-          - Sid: PublicReadForGetBucketObjects
-            Effect: Allow
-            Principal: '*'
-            Action: 's3:GetObject'
-            Resource: !Join 
-              - ''
-              - - 'arn:aws:s3:::'
-                - !Ref S3Bucket
-                - /*
-      Bucket: !Ref S3Bucket
 
-  CloudFrontOriginAccessIdentity:
-    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+  S3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
     Properties:
-      CloudFrontOriginAccessIdentityConfig:
-        Comment:
-          Fn::Join:
-          - ''
-          - - Ref: S3Bucket
-            - "-access-identity"
+      Bucket: !Ref S3Bucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: 'Allow'
+            Action: 's3:GetObject'
+            Principal: '*'
+            Resource: !Sub '${S3Bucket.Arn}/*'
 
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
         Aliases:
-        - www.thesheps.dev
+          - www.thesheps.dev
         CustomErrorResponses:
-        - ErrorCode: 403
-          ResponseCode: 200
-          ResponsePagePath: "/index.html"
-        - ErrorCode: 404
-          ResponseCode: 200
-          ResponsePagePath: "/index.html"
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
         DefaultCacheBehavior:
           AllowedMethods:
-          - GET
-          - HEAD
+            - GET
+            - HEAD
           CachedMethods:
-          - GET
-          - HEAD
+            - GET
+            - HEAD
           Compress: true
           ForwardedValues:
             Cookies:
@@ -73,19 +63,12 @@ Resources:
         HttpVersion: http2
         IPV6Enabled: true
         Origins:
-        - ConnectionAttempts: 3
-          ConnectionTimeout: 10
-          DomainName:
-            Fn::GetAtt:
-            - S3Bucket
-            - RegionalDomainName
-          Id: origin1
-          S3OriginConfig:
-            OriginAccessIdentity:
-              Fn::Join:
-              - ''
-              - - origin-access-identity/cloudfront/
-                - Ref: CloudFrontOriginAccessIdentity
+          - ConnectionAttempts: 3
+            ConnectionTimeout: 10
+            DomainName:  !Sub '${AWS::StackName}-site.s3-website-eu-west-1.amazonaws.com'
+            Id: origin1
+            CustomOriginConfig:
+              OriginProtocolPolicy: "http-only"
         PriceClass: PriceClass_100
         ViewerCertificate:
           AcmCertificateArn: arn:aws:acm:us-east-1:645296151467:certificate/e785697f-a04d-4f33-b536-8a6f297623ca
@@ -97,6 +80,7 @@ Outputs:
       - S3Bucket
       - WebsiteURL
     Description: URL for website hosted on S3
+
   S3BucketSecureURL:
     Value: !Join 
       - ''

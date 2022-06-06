@@ -1,4 +1,4 @@
-baseURL = "https://thesheps.dev"
+baseURL = "https://www.thesheps.dev"
 theme = "risotto"
 title = "thesheps.dev"
 author = "Chris Shepherd"
@@ -68,5 +68,5 @@ unsafe = true
 [deployment]
 [[deployment.targets]]
 name = "S3"
-URL = "s3://thesheps-dev-s3bucket-196q55zm93jj6?region=eu-west-1"
-# cloudFrontDistributionID = <ID>
+URL = "s3://thesheps-dev-site?region=eu-west-1"
+cloudFrontDistributionID = "E3PWJA3TB9ODPT"
