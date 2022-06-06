@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2019-06-24 08:44:00
 title: "Let's Build a Thing! (Part Three)"
 summary: "The third installment of this series where I'm building out a client rendering framework."
-comments: true
-categories:
+tags:
   - js
   - creativity
   - front-end

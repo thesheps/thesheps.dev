@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2019-06-22 09:27:00
 title: "Let's Build a Thing! (Part One)"
 summary: "My current run-rate for blogging is _not fantastic._"
-comments: true
-categories:
+tags:
   - js
   - creativity
   - front-end

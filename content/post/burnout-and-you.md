@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2018-09-22 09:27:00
 title: "Burnout & You - Recognising the Signs"
 summary: "I’ve been wading around the murky waters of various IT organisations for the past 11ish years, and have worked in many different roles with varying responsibilities throughout. This is the latest in a series of frequently-aborted attempts at blogging and brain-sharing..."
-comments: true
-categories:
+tags:
   - burnout
   - mental health
 

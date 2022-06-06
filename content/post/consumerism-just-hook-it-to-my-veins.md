@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-09-27 14:30:00
 title: "Consumerism, or - just hook it to my veeeins!"
 summary: "You can buy _anything_ online these days. More to the point - you can buy incredibly more awesome things, in a manner more timely and absurdly convenient than I ever thought possible."
-comments: true
-categories:
+tags:
   - consumerism
   - internet
   - awesome

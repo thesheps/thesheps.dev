@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-10-04 11:31:00
 title: "GitChess - For the win!"
 summary: "So I thought it might be a good idea to start including technical stuff in this technical/developer blog. Fairly recently, my best friend moved to gay Paris for business."
-comments: true
-categories:
+tags:
   - chess
   - git
   - joy

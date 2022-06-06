@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2019-06-23 11:03:00
 title: "Let's Build a Thing! (Part Two)"
 summary: "The second installment of a series where I fiddle about with building my own toy js framework just for lols"
-comments: true
-categories:
+tags:
   - js
   - creativity
   - front-end

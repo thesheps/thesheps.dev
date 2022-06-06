@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-11-21 09:27:00
 title: "Hello again!"
 summary: "Oops, it's happened again! Once more I've started a blog, run out of things to say and subsequently let the entire thing rot away..."
-comments: true
-categories:
+tags:
   - hobby coding
   - c
 ---

@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-09-19 14:30:00
 title: "Burnout: Not knowing what to know."
 summary: "I started this blog with the intention of contributing back to the community any thoughts and learnin's I've picked up over the years. The main problem with this is that I get the impression everything has already been discussed, debated and blogged about to the point of exhaustion. So what's left to contribute?"
-comments: true
-categories:
+tags:
   - general
   - mental health
   - burnout

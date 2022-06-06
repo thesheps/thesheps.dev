@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-09-12 10:00:00
 title: "People can actually be pretty great."
 summary: I've been trying to get out and do Park Runs for about 9 months or so now. It gets me out of the house, and gives me something to do on a Saturday morning, other than just marinating in my own juices...
-comments: true
-categories:
+tags:
   - general
 ---
 

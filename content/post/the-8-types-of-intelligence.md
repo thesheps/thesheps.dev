@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2020-06-29 19:45:00
 title: "The 8 Types of Intelligence"
 summary: "And why neurodiversity matters. This post discusses different types of intelligence, and why it can be helpful to understand your friends learning modes!"
-comments: true
-categories:
+tags:
   - creativity
   - learning
   - people

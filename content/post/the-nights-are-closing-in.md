@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2015-10-16 18:00:00
 title: "The nights are closing in!"
 summary: "The summer sun - seemingly a fleeting acquaintance this year, has bid farewell; leaving behind it chillier mornings, a craving for carbohydrates, and a fizzling-out sense of motivation..."
-comments: true
-categories:
+tags:
   - autumn
   - code
   - hobbies

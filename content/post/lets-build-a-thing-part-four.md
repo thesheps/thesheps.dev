@@ -3,8 +3,7 @@ author: "Sheps"
 date: 2019-06-26 08:21:00
 title: "Let's Build a Thing! (Part Four)"
 summary: "Or where I realise I'm out of my depth..."
-comments: true
-categories:
+tags:
   - js
   - creativity
   - front-end
