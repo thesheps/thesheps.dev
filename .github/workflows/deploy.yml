@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@main
+        with:
+          submodules: true
 
       - name: Deploy Infra
         uses: aws-actions/aws-cloudformation-github-deploy@v1.0.3
