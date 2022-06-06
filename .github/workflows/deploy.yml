@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out main
+      - name: Check out
         uses: actions/checkout@main
 
       - name: Deploy Infra
@@ -30,8 +30,8 @@ jobs:
         with:
           hugo-version: '0.100.1'
 
-      - name: Build
+      - name: Build Site
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy Site
         run: hugo deploy

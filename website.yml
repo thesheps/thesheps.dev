@@ -6,14 +6,14 @@ Resources:
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: 
-          Suffix: index.html
+          Suffix: 'index.html'
         ErrorDocument: 
-          Key: error.html
+          Key: 'error.html'
         RoutingRules:
         - Redirect:
-            ReplaceKeyWith: index.html
+            ReplaceKeyWith: 'index.html'
           Condition:
-            KeyPrefixEquals: "/"
+            KeyPrefixEquals: '/'
     DeletionPolicy: Retain
   BucketPolicy:
     Type: 'AWS::S3::BucketPolicy'
