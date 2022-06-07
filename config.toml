@@ -44,9 +44,29 @@ title = "GitHub"
 url = "https://github.com/thesheps"
 
 [[params.socialLinks]]
+icon = "fab fa-gitlab"
+title = "Gitlab"
+url = "https://gitlab.com/thesheps"
+
+[[params.socialLinks]]
 icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/the_sheps"
+
+[[params.socialLinks]]
+icon = "fab fa-mastodon"
+title = "Mastodon"
+url = "https://mastodon.social/web/@thesheps"
+
+[[params.socialLinks]]
+icon = "fab fa-linkedin"
+title = "Linked In"
+url = "https://www.linkedin.com/in/thesheps/"
+
+[[params.socialLinks]]
+icon = "fab fa-medium"
+title = "Medium"
+url = "https://thesheps.medium.com/"
 
 [[params.socialLinks]]
 icon = "fas fa-envelope"
