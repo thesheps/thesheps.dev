@@ -71,7 +71,7 @@ url = "https://thesheps.medium.com/"
 [[params.socialLinks]]
 icon = "fas fa-envelope"
 title = "Email"
-url = "mailto:me@thesheps.dev"
+url = "mailto:sup@thesheps.dev"
 
 [taxonomies]
 category = "categories"
