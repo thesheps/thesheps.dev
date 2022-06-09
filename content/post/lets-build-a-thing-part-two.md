@@ -26,9 +26,9 @@ today? Well. There was midnight oil burned and coffee drunk. There was trashy
 background TV watched and lots of lovely downtime. My Trello board now looks liiiiike
 this!
 
-<center>
+<p align="center">
     <img src="/assets/posts/2019-06-23/trello.png">
-</center>
+</p>
 
 Now. You may notice in this screeny that I am my own User. I am Dev, QA, BA and PO.
 I am literally wearing every single hat. And this is really tough. I am answerable to
@@ -37,9 +37,9 @@ arrived at with no input from other developers. I am drawing on the experience o
 single person, and the testing of _The System_ is not validated by anyone other than
 the person who originally developed it.
 
-<center>
+<p align="center">
     <img height="400px" src="/assets/posts/2019-06-23/hats.png">
-</center>
+</p>
 
 And it's kinda freeing, in a way - but also pretty lonely. Pet projects such as these
 really bring home how privileged I am to work with incredible people every day, and
@@ -55,9 +55,9 @@ essentially have a **RegisterObserver** method on your Observed component which 
 new Observers to an array, and then you iterate over each of these Observers and notify
 them whenever your state changes.
 
-<center>
+<p align="center">
     <img height="400px" src="/assets/posts/2019-06-23/observer-pattern.png">
-</center>
+</p>
 
 Now, I've decided to use this pattern as a means to keep my DOM updated with any
 changes that might happen in the structure of whatever _State-object-thing_ I've got

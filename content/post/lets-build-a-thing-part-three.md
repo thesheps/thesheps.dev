@@ -68,9 +68,9 @@ up-to-date copy of the Controller's state when they are registered.
 
 But what happens on a subsequent re-render? Let's write another test and see!
 
-<center>
+<p align="center">
     <img src="/assets/posts/2019-06-24/failing-test.png">
-</center>
+</p>
 
 So this is failing for a pretty good reason - As soon as I've un-moustached the DOM I've lost
 the context of where the original moustaches _were_. Any subsequent un-moustachification is going
@@ -136,9 +136,9 @@ transpiled JavaScript so that it is available in the browser. This, coupled with
 all of the TypeScript classes need to have a _named export_ is the key to making the library
 available from a web browser. This took me longer than I care to admit to figure out...
 
-<center>
+<p align="center">
   <img src="/assets/posts/2019-06-24/et-voila.png">
-</center>
+</p>
 
 Et voila! I know there's been a bazillion things that I've explored in this post, but it largely
 boils down to a few main things. I've created a simple Toy class which is able to parse and

@@ -65,9 +65,9 @@ I am a great big Kanban-enthusiast, and like the majority of my engineer friends
 better than Listing the ever-loving shit out of my life. So first things first, let's go and do
 a Trello thing:
 
-<center>
+<p align="center">
     <img src="/assets/posts/2019-06-22/trello-outline.png">
-</center>
+</p>
 
 This is quite nice because it seriously helps to order my thoughts. Moving stories/tickets/stickies
 across a board is comparable to the lovely little dopamine hit that you get from playing the slots
@@ -76,9 +76,9 @@ in Vegas, or from seeing someone :thumbsup: your post on Facebook. Agile is a ga
 Anyways, I digress. What features should I build, then? Well for a start there are a few teeny tech
 tasks to work on so that I can get my pen going:
 
-<center>
+<p align="center">
     <img src="/assets/posts/2019-06-22/trello-tasks.png">
-</center>
+</p>
 
 First of all I want to configure Jest (my testing framework of choice!) to play nicely with
 TypeScript. Next I'm going to want Webpack to transpile whatever stuff I'm coding into JavaScript.
@@ -125,10 +125,10 @@ With all the above in place, we can go ahead and write a super-simple failing te
 
 <script src="https://gist.github.com/thesheps/25d9ad00079b114b85dc3809eefc5135.js"></script>
 
-<center>
+<p align="center">
     Proof!!
     <img src="/assets/posts/2019-06-22/test-output.png">
-</center>
+</p>
 
 <hr>
 

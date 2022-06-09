@@ -17,9 +17,9 @@ I’ve been wading around the murky waters of various IT organisations for the p
 
 What hastened me to put some words down this Friday evening was a link to this email by the ineffable Linus Torvalds that one of my oldest (and weirdest) friends put me on to earlier in the week. For the uninitiated - Linus is the creator and principal developer of the Linux kernel. He has a reputation of being a bit of a despot with regards to generally abusing the maintainers of and contributors to his codebase, and famously gave NVidia the bird during a developer meeting in his native Finland:
 
-<center>
+<p align="center">
 <img text="The lesser-spotted Linus Bird" src="https://cdn-images-1.medium.com/max/1600/1*hqqftPN4CRt1P3ZHimljPQ.png" />
-</center>
+</p>
 
 <br />
 
@@ -33,9 +33,9 @@ But what does Burnout look like? Do you ever find yourself unable to completely 
 
 Chances are you’ve already experienced Burnout. Whilst this is a malady that affects not only IT professionals I believe that its prevalence in tech is something that we should all recognise, especially when considering new hires and on-boarding younger staff.
 
-<center>
+<p align="center">
 <img src="https://cdn-images-1.medium.com/max/1600/0*euVXQZmJuuLgTSZR.jpg" />
-</center>
+</p>
 
 <br />
 
@@ -49,9 +49,9 @@ The answer for me is to ensure that you create a safe environment for learning. 
 
 So the next time you feel as though you may be reaching capacity — make it known. Pull the Andon cord and signal that you’re struggling. Find time for your own learning outside of work (as counter-intuitive as that sounds). Above all recognise that you’re not alone in this. It is not a failing to acknowledge Burnout, but if you pretend that everything is ok you run the risk of hurting yourself further.
 
-<center>
+<p align="center">
 <img src="https://cdn-images-1.medium.com/max/1600/1*JKsLBE8TYHdWuw9OjpsPpg.gif" />
-</center>
+</p>
 
 <br />
 

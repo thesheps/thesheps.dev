@@ -11,7 +11,9 @@ tags:
 ---
 This isn't going to be a step-by-step guide where I talk about all the back-and-forth about getting my content outta Jekyll and into Hugo, I'm just going to skip to the end...
 
-![Simon Pegg Spaced - Skip to the End gif](https://c.tenor.com/FLFBFq27T60AAAAC/simon-pegg.gif)
+<p align="center">
+  <img src="https://c.tenor.com/FLFBFq27T60AAAAC/simon-pegg.gif" />
+</p>
 
 The process for getting my Jekyll blog moved to Hugo is actually quite elegantly described with a lil code snippet:
 

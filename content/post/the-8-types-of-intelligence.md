@@ -33,9 +33,9 @@ In this piece we're going to look at a popular theory of Mind from **Howard Gard
 
 > The Theory of Multiple Intelligences.
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/multiple.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -50,9 +50,9 @@ So heeeere they are!
 
 ## Musical-rhythmic and harmonic
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/music.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -63,9 +63,9 @@ for memorisation, and are often very able to remember words and phrases in forei
 
 ## Visual-spatial
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/shapes.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -76,9 +76,9 @@ capability or intelligence is often found in people who may be visually impaired
 
 ## Verbal-linguistic
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/verbal.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -89,9 +89,9 @@ and succinctly, and are able to change their language to suit their audience.
 
 ## Logical-mathematical
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/maths.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -102,9 +102,9 @@ scientific investigations.
 
 ## Bodily-kinaesthetic
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/dance.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -115,9 +115,9 @@ the mastery of a physically-demanding sport.
 
 ## Interpersonal
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/social.jpg">
-</center>
+</p>
 
 <br/>
 Interpersonal intelligence is also referred to as _Emotional Intelligence._ Those with this
@@ -127,9 +127,9 @@ a sensitivity to the moods and temperaments of others.
 
 ## Intrapersonal
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/lonely.jpg">
-</center>
+</p>
 
 <br/>
 Intrapersonal intelligence, conversely, is the ability to introspect oneself and understand
@@ -139,9 +139,9 @@ understand what they want to achieve and are able to plan according to those des
 
 ## Naturalistic
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/nature.jpg">
-</center>
+</p>
 
 <br/>
 And finally we have naturalistic intelligence. Those possessed of a high degree of naturalistic
@@ -160,9 +160,9 @@ This predilection for dark rooms and late night coding sessions reduces the prog
 exposure to social situations, preventing them from developing that _Interpersonal_
 intelligence.
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/nerd.jpg">
-</center>
+</p>
 
 <br/>
 
@@ -196,6 +196,6 @@ By accepting that intelligence is not a _Likert_ scale 1 through 10 or some scor
 graded out of a hundred; you provide a **human** framework through which you and your people
 can grow and be happy.
 
-<center>
+<p align="center">
   <img src="/assets/posts/2020-06-29/happy.jpg">
-</center>
+</p>

@@ -28,9 +28,9 @@ useful/entertaining then I'm a _reasonably_ happy chappy!
 I've also subsequently been informed that I'd make a **shit** BA, and that there's no statement
 of value anywhere in my user stories :cry:
 
-<center>
+<p align="center">
   <img src="/assets/posts/2019-06-26/trello.png">
-</center>
+</p>
 
 <br/>
 
