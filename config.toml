@@ -23,7 +23,7 @@ mode = "dark-mode"
 
 # Sidebar: about/bio
 [params.about]
-title = "Chris Shepherd | Dev"
+name = "Chris Shepherd"
 summary = "Blog, code and stuff."
 description = """
 - [Barbershopper](https://cottontownchorus.co.uk)
