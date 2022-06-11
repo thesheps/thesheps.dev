@@ -26,6 +26,8 @@ And then society stopped. My home became my office, and our world shrunk almost 
 
 <br/>
 
-But society has moved on. Folks are getting back to offices and the world is returning to that same, pre-pandemic pace.
+Now none of this is new information. [Social and horticultural therapy](https://www.thrive.org.uk/how-we-help/what-we-do/social-therapeutic-horticulture) is a well-known approach for treating PTSD and dementia. It actively lowers stress and improves physical and mental well-being. During the lockdowns of 2020/21, my little garden became a refuge for my thoughts. I could look at my yard after an hour or two's graft and be filled with a sense of accomplishment. Of peace.
 
-And my garden is getting thick with weeds. The horsetail is showing and the dandelions are turning to clocks.
+But the lockdowns have lifted once more. Society has moved on. Folks are getting back to offices and the world is returning to that same, pre-pandemic pace.
+
+But my garden is no longer thick with weeds. I've pulled up all the horsetail, and I won't let the dandelions turn to clocks again.
