@@ -1,7 +1,7 @@
 ---
 date: 2022-06-11T16:31:20+01:00
 author: "Sheps"
-title: "Lets Build a Url Shortener Pt1"
+title: "Let's Build a Url Shortener Pt1"
 summary: "In this introductory blog post we talk about the need for URL shorteners, and discuss some of the reasoning around building my own!"
 tags:
   - IndieWeb
