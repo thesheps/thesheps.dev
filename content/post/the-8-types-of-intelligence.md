@@ -10,11 +10,6 @@ tags:
   - humans
   - tech
   - academia
-
-header:
-  overlay_image: /assets/posts/2020-06-29/header.jpg
-  overlay_filter: 0.3
-  caption: "Photo credit: [Sk on Unsplash](https://unsplash.com)"
 ---
 
 So. I've been coding both casually and professionally on and off for quite a while now. But before I got into tech I was profoundly interested in _people_. Whilst I've always enjoyed the

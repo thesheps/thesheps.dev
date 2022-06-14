@@ -12,11 +12,6 @@ tags:
   - react
   - vue
   - web components
-
-header:
-  overlay_image: /assets/posts/2019-06-24/header.jpg
-  overlay_filter: 0.3
-  caption: "Photo credit: [Ketut Subiyanto on Pexels](https://pexels.com)"
 ---
 
 Welcome back! As I seem to have found my writing cadence I thought I'd keep on _ploughin' on_ with

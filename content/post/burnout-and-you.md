@@ -6,11 +6,6 @@ summary: "I’ve been wading around the murky waters of various IT organisations
 tags:
   - burnout
   - mental health
-
-header:
-  overlay_image: /assets/posts/2018-09-22/header.jpg
-  overlay_filter: 0.3
-  caption: "Photo credit: [Sebastian Sørensen on Pexels](https://pexels.com)"
 ---
 
 I’ve been wading around the murky waters of various IT organisations for the past 11ish years, and have worked in many different roles with varying responsibilities throughout. This is the latest in a series of frequently-aborted attempts at blogging and brain-sharing. With any luck it’ll stick and you, dear reader, will remain in my thrall for many a moon.

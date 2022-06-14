@@ -12,11 +12,6 @@ tags:
   - react
   - vue
   - web components
-
-header:
-  overlay_image: /assets/posts/2019-06-26/header.jpg
-  overlay_filter: 0.3
-  caption: "Photo credit: [Xavi Cavrera on Unsplash](https://unsplash.com)"
 ---
 
 Well, good morning :wave: - I hope that you've been enjoying the exploits over these last few
