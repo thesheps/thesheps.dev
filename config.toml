@@ -5,6 +5,7 @@ author = "Chris Shepherd"
 copyright = "© 2022 Chris Shepherd"
 paginate = 3
 languageCode = "en"
+pluralizelisttitles = "false"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableGitInfo = true
