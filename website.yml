@@ -19,7 +19,7 @@ Resources:
         ErrorDocument: '404.html'
         IndexDocument: 'index.html'
 
-  S3BucketPolicy:
+  AllowS3BucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
       Bucket: !Ref S3Bucket
@@ -30,14 +30,18 @@ Resources:
             Action: 's3:GetObject'
             Principal: '*'
             Resource: !Sub '${S3Bucket.Arn}/*'
-          - Effect": 'Deny'
+
+  DenyS3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref S3Bucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: 'Deny'
             Action: 's3:GetObject'
             Principal: '*'
-            Resource: 'arn:aws:s3:::block-test'
-            Condition:
-              StringLike:
-                s3:prefix:
-                  - 'private/'
+            Resource: !Sub '${S3Bucket.Arn}/private/*'
 
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
