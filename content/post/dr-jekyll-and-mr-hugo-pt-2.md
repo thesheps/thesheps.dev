@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/WwkIC
 date: 2022-06-09T18:53:38+01:00
 author: "Sheps"
 title: "Dr. Jekyll and Mr. Hugo - Pt. 2"

@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/QGvak
 author: "Sheps"
 date: 2015-09-27 14:30:00
 title: "Consumerism, or - just hook it to my veeeins!"

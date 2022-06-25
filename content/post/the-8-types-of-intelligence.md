@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/1cvTjh
 author: "Sheps"
 date: 2020-06-29 19:45:00
 title: "The 8 Types of Intelligence"

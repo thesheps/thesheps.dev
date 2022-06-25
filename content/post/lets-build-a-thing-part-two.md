@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/1v2XgX
 author: "Sheps"
 date: 2019-06-23 11:03:00
 title: "Let's Build a Thing! (Part Two)"

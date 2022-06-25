@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/1cHrbb
 author: "Sheps"
 date: 2015-09-12 10:00:00
 title: "People can actually be pretty great."

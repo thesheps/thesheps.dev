@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/1SSg3O
 author: "Sheps"
 date: 2015-10-04 11:31:00
 title: "GitChess - For the win!"

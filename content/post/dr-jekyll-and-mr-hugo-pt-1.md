@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/9HiQW
 date: 2022-06-07T18:24:46+01:00
 author: "Sheps"
 title: "Dr. Jekyll and Mr. Hugo - Pt. 1"

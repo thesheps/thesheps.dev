@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/1sS8yk
 author: "Sheps"
 date: 2015-09-19 14:30:00
 title: "Burnout: Not knowing what to know."

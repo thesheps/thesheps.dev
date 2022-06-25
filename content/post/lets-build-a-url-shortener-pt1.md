@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/m5sNE
 date: 2022-06-11T16:31:20+01:00
 author: "Sheps"
 title: "Let's Build a Url Shortener Pt1"

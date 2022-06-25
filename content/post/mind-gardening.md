@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/18TYbp
 date: 2022-06-10T21:34:35+01:00
 author: "Sheps"
 title: "Mind Gardening"

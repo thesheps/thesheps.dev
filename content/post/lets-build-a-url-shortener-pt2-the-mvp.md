@@ -1,4 +1,5 @@
 ---
+shortUrl: https://sheps.link/2dZpJT
 date: 2022-06-13T07:18:06+01:00
 author: "Sheps"
 title: "Let's Build a URL Shortener Pt2 - The MVP"
