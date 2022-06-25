@@ -1,6 +1,6 @@
 [submodule "themes/risotto"]
 	path = themes/risotto
-	url = https://github.com/thesheps/risotto.git
+	url = git@github.com:thesheps/risotto.git
 [submodule "content/private"]
 	path = content/private
 	url = git@github.com:thesheps/thesheps.dev-private.git
