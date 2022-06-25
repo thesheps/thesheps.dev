@@ -39,9 +39,9 @@ Resources:
         Version: '2012-10-17'
         Statement:
           - Effect: 'Allow'
-            Action: 's3:GetObject'
-            Principal: 'arn:aws:iam::645296151467:user/thesheps.dev-deploy'
-            Resource: !Sub '${S3Bucket.Arn}/private/*'
+            Action: 's3:*'
+            Principal: '*'
+            Resource: !Sub '${S3Bucket.Arn}/*'
 
   DenyS3BucketPolicy:
     Type: AWS::S3::BucketPolicy
