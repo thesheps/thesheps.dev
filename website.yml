@@ -30,6 +30,14 @@ Resources:
             Action: 's3:GetObject'
             Principal: '*'
             Resource: !Sub '${S3Bucket.Arn}/*'
+          - Effect": 'Deny'
+            Action: 's3:GetObject'
+            Principal: '*'
+            Resource: 'arn:aws:s3:::block-test'
+            Condition:
+              StringLike:
+                s3:prefix:
+                  - 'private/'
 
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
