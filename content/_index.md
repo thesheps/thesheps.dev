@@ -9,5 +9,7 @@ If you'd like to get in touch you can contact me on any of the socials over ther
 # Conferences
 
 [XConf 2020 - Your test coverage is a lie!](https://www.youtube.com/watch?v=h_DBFHWn3YE)
+
 [XConf 2021 - Overheard in infrastructure](https://www.youtube.com/watch?v=sxDJ8YGaLDQ)
+
 [Hashiconf 2022 - Non-technical challenges of platform engineering](https://www.youtube.com/watch?v=m6nlREbQ6LQ)
